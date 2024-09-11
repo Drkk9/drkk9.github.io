@@ -1,0 +1,117 @@
+/* style.css */ 
+body 
+{
+  width:auto; 
+  background-image:url("/images/bg.png"); 
+  color: white; 
+  background-position: center top; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-attachment: fixed;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 125%;
+}
+
+#mainone 
+{
+  background-color: #90cc9300;
+  display: flex; 
+  height: 15vh; 
+  list-style: none; 
+  text-decoration: none;
+  justify-content: space-evenly;
+  align-items: center;
+  border: thick double #05011fbd;
+}
+
+.navbutton 
+{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  padding: 12px;
+}
+
+ul
+{
+  margin: 20px;
+  padding: 10px;
+}
+
+#footer-container-1{border: 1px solid white; display: flex;}
+
+li 
+{
+  list-style: none; 
+}
+
+article
+{
+  width: 70%; 
+  margin: auto;
+}
+
+article > header 
+{
+  background-color: #05011fbd;
+  text-align: center;
+}
+
+p 
+{
+  margin: 10px 0;
+  padding: 5px;
+  margin-bottom: 2em;
+  text-indent: 3ch;
+}
+
+
+h2{text-align: center;font-size: 150%;}
+h3{text-align: center;}
+h4{text-align: center;}
+h5{text-align: center;}
+
+footer {list-style: none !important; justify-content: space-evenly;border: thick double #05011fbd; align-items: center;}
+
+body > footer {border: 1px solid #999;align-items: center;}
+
+#socials {display: flex; align-content: space-evenly; flex-direction: row; justify-content: space-between; border-bottom: 1px solid #b90f0f;}
+
+form 
+{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  text-align: center;  
+  width: 70%; 
+  margin: auto;
+  margin-left: auto; 
+  margin-right: auto; 
+  align-content: space-around;
+  
+}
+
+
+label[for="radio"] {
+  box-shadow: 1px 1px 3px #c55050;
+  background: linear-gradient(to bottom, #634646, #b90f0f);
+  border: 1px solid rgb(169 169 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+  align-content: space-between;
+}
+
+label[for="radio"]:hover {
+  background: linear-gradient(to bottom, #b93b3b, #ddd);
+}
+
+label[for="radio"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+.images {display: flex; justify-content: center; flex-wrap: wrap; align-content: space-between;}
